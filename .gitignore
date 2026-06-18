@@ -1,0 +1,23 @@
+# Системні файли
+.DS_Store
+
+# Кеш та налаштування IDE
+.idea/
+.vscode/
+*.swp
+.ipynb_checkpoints/
+
+# Середовище та кеш Python
+venv/
+__pycache__/
+
+# Файли з даними (заборонено комітити за умовою!)
+*.csv
+*.txt
+!requirements.txt
+*.zip
+*.json
+vhi_data/
+
+# стороння директорія
+restaurant_data/
